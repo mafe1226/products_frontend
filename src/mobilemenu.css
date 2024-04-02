@@ -1,0 +1,82 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 32px;
+    z-index: 999;
+    background: #264061;
+  }
+  .menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    margin-left: 400px;
+  }
+  
+  .modal-content {
+    font-family: Verdana;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.17px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modallink__Diario {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+  .modallink__Calculadora {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+@media (max-width: 498px) {
+ .modallink__Diario {
+    font-size: 18px;
+  }
+  .modallink__Calculadora {
+    font-size: 18px;
+  }
+  .menu-toggle {
+    margin-left: 190px;
+  }
+}
+@media (min-width: 1200px) {
+    .menu-toggle {
+      display: none;
+    }
+  }
