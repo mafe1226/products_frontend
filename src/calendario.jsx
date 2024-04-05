@@ -30,7 +30,7 @@ const Calendario = () => {
   };
 
   return (
-    <div className="calendario-container" style={{ position: 'relative' }}>
+    <div className="calendario-container"  style={{ position: 'relative' }}>
       <FaCalendarAlt className="calendar-icon" onClick={openCalendar} />
       <span className="selected-date">{displayText}</span>
       {showCalendar && (
